@@ -1,0 +1,46 @@
+{
+	"name": "Excel1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Sheet1",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Team-TimeZones.xlsx",
+				"container": "inoput"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "Country",
+				"type": "String"
+			},
+			{
+				"name": "Starts at",
+				"type": "String"
+			},
+			{
+				"name": "Ends at",
+				"type": "String"
+			},
+			{
+				"name": "UTC",
+				"type": "String"
+			},
+			{
+				"name": "Central Time",
+				"type": "String"
+			},
+			{
+				"name": "Pacific Time",
+				"type": "String"
+			}
+		]
+	}
+}
