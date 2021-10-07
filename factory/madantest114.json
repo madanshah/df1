@@ -1,0 +1,9 @@
+{
+	"name": "madantest114",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4f99e8da-6448-415d-a159-60908d67e3ab",
+		"tenantId": "5c0ee11f-deb3-4e14-a81b-2410b2508da9"
+	}
+}
